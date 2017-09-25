@@ -30,6 +30,9 @@ roles_list[5]='geerlingguy.mysql,2.3.1'
 roles_list[6]='AerisCloud.repos,v1.1.2'
 roles_list[7]='geerlingguy.repo-remi'
 roles_list[8]='geerlingguy.php-versions'
+roles_list[9]='carlosbuenosvinos.ansistrano-deploy'
+roles_list[10]='carlosbuenosvinos.ansistrano-rollback'
+
 
 for role_and_version in "${roles_list[@]}"
 do

@@ -1,8 +1,8 @@
 [webservers]
-52.31.99.55 ansible_ssh_private_key_file=/ansible/files/mpwar16.pem ansible_user=root
+52.208.245.184 ansible_ssh_private_key_file=/ansible/files/mpwar16.pem ansible_ssh_user=centos
 
 [databases]
-52.31.99.55  ansible_ssh_private_key_file=/ansible/files/mpwar16.pem ansible_user=root
+52.208.245.184  ansible_ssh_private_key_file=/ansible/files/mpwar16.pem ansible_user=root
 
 [infraestructure:children]
 webservers

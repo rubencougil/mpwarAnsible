@@ -18,3 +18,11 @@
     - { role: geerlingguy.composer }
 
     - { role: geerlingguy.mysql }
+
+- name: Install yum packages
+  hosts: "webservers"
+  tasks:
+    - name: Packages yum 
+      yum: name={{ item }} state=installed
+      with_items:
+        - rsync
