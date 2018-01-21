@@ -7,14 +7,16 @@ end
 
 Vagrant.configure("2") do |config|
 
-    config.vm.box     = "nrel/CentOS-6.7-x86_64"
+    config.vm.box     = "centos/7"
     config.ssh.forward_agent = true
 
     config.vm.synced_folder "../ansible", "/ansible"
+    config.vm.synced_folder "../share/www", "/var/www"
 
     config.vm.provider "virtualbox" do |v|
         v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
         v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+        v.customize ["modifyvm", :id, "--memory", "2048", "--cpus", "4"]
     end
 
     config.vm.define "web", primary: true do |web|
