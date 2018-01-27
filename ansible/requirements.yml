@@ -9,3 +9,4 @@
 - src: AerisCloud.repos
 - src: geerlingguy.repo-remi
 - src: geerlingguy.php-versions
+- src: geerlingguy.git

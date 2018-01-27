@@ -16,6 +16,7 @@
 
     - { role: geerlingguy.apache }
     - { role: geerlingguy.firewall }
+    - { role: geerlingguy.git }
 
     - role: geerlingguy.repo-remi
       when: ansible_os_family == 'RedHat'
