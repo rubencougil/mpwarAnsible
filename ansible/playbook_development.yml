@@ -26,3 +26,5 @@
     - { role: geerlingguy.composer }
 
     - { role: geerlingguy.mysql }
+    - { role: elasticsearch, es_instance_name: "node1", es_config: { network.host: 0.0.0.0 } }
+    - { role: kibana }

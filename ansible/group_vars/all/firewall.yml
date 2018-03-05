@@ -2,4 +2,8 @@ firewall_allowed_tcp_ports:
   - "22"
   - "80"
   - "443"
-firewall_allowed_udp_ports: []
+  - "9200"
+  - "5601"
+firewall_allowed_udp_ports:
+  - "9200"
+  - "5601"
