@@ -26,3 +26,5 @@
     - { role: geerlingguy.composer }
 
     - { role: geerlingguy.mysql }
+    - { role: geerlingguy.git }
+    - { role: geerlingguy.blackfire }
