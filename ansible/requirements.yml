@@ -12,3 +12,4 @@
 - src: geerlingguy.git
 - src: geerlingguy.blackfire
 - src: geerlingguy.redis
+- src: geerlingguy.rabbitmq

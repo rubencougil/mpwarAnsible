@@ -29,3 +29,4 @@
     - { role: geerlingguy.git }
     - { role: geerlingguy.blackfire }
     - { role: geerlingguy.redis }
+    - { role: geerlingguy.rabbitmq }
