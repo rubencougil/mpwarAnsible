@@ -3,4 +3,6 @@ firewall_allowed_tcp_ports:
   - "80"
   - "443"
   - "3306"
+  - "15672"
+  - "5672"
 firewall_allowed_udp_ports: []

@@ -12,4 +12,5 @@
 - src: geerlingguy.git
 - src: geerlingguy.blackfire
 - src: geerlingguy.redis
+- src: geerlingguy.repo-epel
 - src: geerlingguy.rabbitmq
