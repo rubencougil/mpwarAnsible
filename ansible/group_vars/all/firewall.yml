@@ -5,4 +5,6 @@ firewall_allowed_tcp_ports:
   - "3306"
   - "15672"
   - "5672"
-firewall_allowed_udp_ports: []
+firewall_allowed_udp_ports:
+  - "9200"
+  - "5601"
