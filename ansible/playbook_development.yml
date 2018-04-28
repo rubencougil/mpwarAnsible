@@ -28,13 +28,13 @@
     - { role: rubencougil.kibana }
 
   post_tasks:
-#    - name: (RabbitMQ) enable management plugin
-#      sudo: yes
-#      shell: rabbitmq-plugins enable rabbitmq_management
-#
-#    - name: (RabbitMQ) create admin user
-#      sudo: yes
-#      shell: |
-#        rabbitmqctl add_user admin admin
-#        && rabbitmqctl set_user_tags admin administrator
-#        && rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
+    - name: (RabbitMQ) enable management plugin
+      sudo: yes
+      shell: rabbitmq-plugins enable rabbitmq_management
+
+    - name: (RabbitMQ) create admin user
+      sudo: yes
+      shell: |
+        rabbitmqctl add_user admin admin
+        && rabbitmqctl set_user_tags admin administrator
+        && rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
