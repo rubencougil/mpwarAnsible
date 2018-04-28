@@ -1,4 +1,0 @@
----
-- name: Initiate kibana install process
-  include: install.yml
-

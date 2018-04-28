@@ -12,7 +12,7 @@ then
     sudo yum install ansible -y
 
     # Add SSH key
-    cat /ansible/files/authorized_keys >> /home/vagrant/.ssh/authorized_keys
+    cat /ansible/files/authorized_keys.txt >> /home/vagrant/.ssh/authorized_keys
 else
         echo "-> Ansible already Installed!"
 fi

@@ -10,7 +10,11 @@
 - src: geerlingguy.repo-remi
 - src: geerlingguy.php-versions
 - src: geerlingguy.git
+- src: ferrarimarco.nano
+- src: geerlingguy.java
 - src: geerlingguy.blackfire
 - src: geerlingguy.redis
 - src: geerlingguy.repo-epel
 - src: geerlingguy.rabbitmq
+- src: rubencougil.elasticsearch
+- src: rubencougil.kibana
